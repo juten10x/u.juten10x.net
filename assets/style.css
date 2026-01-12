@@ -99,7 +99,7 @@ h3 {
   margin: 8px 0 -8px 0;
 }
 
-@media (min-width: 768px) {
+@media (width > 768px) {
   html {
     scroll-padding-top: 15px;
   }
@@ -167,7 +167,7 @@ h3 {
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (width <= 768px) {
   html {
     scroll-padding-top: 65px;
   }
@@ -304,11 +304,9 @@ h3 {
     transform: translate(0, -6px) rotate(35deg);
   }
   .i-btn:checked ~ #menu_board {
-    border: solid #4169e1 1.5px;
     height: 150px;
   }
   .i-btn:checked ~ #menu_board2 {
-    border: solid #4169e1 1.5px;
     height: 110px;
   }
   .i-btn:checked ~ #menu_list {
