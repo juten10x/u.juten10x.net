@@ -1,2 +1,2 @@
-# ujuten10x-site
+# u.juten10x.net
 [u.juten10x.net](https://u.juten10x.net/)
