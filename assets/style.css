@@ -216,6 +216,9 @@ code {
   .image4 {
     width: 100%;
   }
+  figure {
+    margin: 0 0 16px 0;
+  }
   figcaption {
     margin-top: -4px;
     font-size: 13px;
@@ -231,7 +234,7 @@ code {
     padding: 20px;
     position: relative;
     letter-spacing: 0.01rem;
-    z-index; 1;
+    z-index; 2;
   }
   #forPhone_ju {
     position: fixed;
@@ -239,7 +242,7 @@ code {
     left: 5%;
     font-size: 18px;
     font-weight: 500;
-    z-index: 1;
+    z-index: 2;
   }
   #menu_list {
     list-style: none;
@@ -248,7 +251,7 @@ code {
     left: 0;
     opacity: 0;
     visibility: hidden;
-    z-index: 1;
+    z-index: 2;
     transition: all .1s ease-out;
     font-size: 28px;
     font-weight: 400;
@@ -269,6 +272,7 @@ code {
     background-color: var(--b-color);
     border: solid var(--font-color) 1.5px;
     transition: all .3s ease;
+	z-index: 1;
   }
   .label-b {
     position: fixed;
@@ -277,7 +281,7 @@ code {
     width: 160px;
     height: 50px;
     cursor: pointer;
-    z-index: 2;
+    z-index: 3;
   }
   .btn {
     position: fixed;
@@ -285,7 +289,7 @@ code {
     right: 5%;
     width: 25px;
     height: 14px;
-    z-index: 1;
+    z-index: 2;
   }
   .btn span {
     position: absolute;
